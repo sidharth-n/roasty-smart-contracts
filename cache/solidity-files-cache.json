@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/sid/Desktop/safe-hackathon files/nameplate-web3/smart-contract/contracts/Subscription.sol": {
+      "lastModificationDate": 1739456579554,
+      "contentHash": "585b73f84b331b3e23407dbf3e3a0348",
+      "sourceName": "contracts/Subscription.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Subscription"
+      ]
+    }
+  }
+}
