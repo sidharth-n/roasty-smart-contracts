@@ -36,6 +36,43 @@
       "artifacts": [
         "Subscription"
       ]
+    },
+    "/home/sid/Desktop/safe-hackathon files/nameplate-web3/smart-contract/contracts/SafeFactory.sol": {
+      "lastModificationDate": 1739457873160,
+      "contentHash": "d857bae6b7bd5a223a6d26c0a5d4d165",
+      "sourceName": "contracts/SafeFactory.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Safe",
+        "SafeFactory"
+      ]
     }
   }
 }
