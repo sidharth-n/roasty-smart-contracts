@@ -1,12 +1,12 @@
 const hre = require("hardhat")
 
 async function main() {
-  const Nameplate = await hre.ethers.getContractFactory("SafeFactory")
+  const Safefactory = await hre.ethers.getContractFactory("SafeFactory")
   console.log("Deploying SafeFactory contract...")
 
-  const nameplate = await Nameplate.deploy()
-  await nameplate.waitForDeployment()
-  const contractAddress = await nameplate.getAddress()
+  const safefactory = await Safefactory.deploy()
+  await safefactory.waitForDeployment()
+  const contractAddress = await safefactory.getAddress()
   console.log(`SafeFactory deployed at : ${contractAddress}`)
 }
 

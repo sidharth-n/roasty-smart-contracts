@@ -3,10 +3,10 @@ pragma solidity ^0.8.0;
 
 /// @title Community Safe Contract with Two Signers
 /// @notice This Safe holds two signers:
-///         1. Agent Roasty's Safe Account (hard-coded)
+///         1. Agent Roasty's Safe Account 
 ///         2. The admin's address (provided during deployment)
 contract Safe {
-    // Hard-coded Agent Roasty's safe account
+    // Agent Roasty's safe account
     address public constant AGENT_ROASTY = 0xe05DCAf9206D125D7887919784756af8e69FaD89;
     
     // The admin (second signer), provided during deployment
