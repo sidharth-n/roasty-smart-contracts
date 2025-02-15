@@ -34,10 +34,10 @@ contract SafeFactory {
     address public constant AGENT_ROASTY = 0xe05DCAf9206D125D7887919784756af8e69FaD89;
     
     // Official Gnosis Safe singleton (master copy) on Sepolia
-    address public constant GNOSIS_SAFE_SINGLETON = 0xD9DBD2f077c5A0417a8b9F54F17b93f6F41f7C71;
+    address public constant GNOSIS_SAFE_SINGLETON = 0xd9Dbd2f077c5a0417a8B9F54f17b93F6F41F7C71;
     
     // Official Gnosis Safe Proxy Factory on Sepolia
-    address public constant GNOSIS_SAFE_PROXY_FACTORY = 0x9416E7b49806F370E353F69C5615B5dE7C79D74A;
+    address public constant GNOSIS_SAFE_PROXY_FACTORY = 0x9416e7B49806F370E353f69c5615B5de7c79d74A;
 
     // Create an instance of the proxy factory
     IGnosisSafeProxyFactory proxyFactory = IGnosisSafeProxyFactory(GNOSIS_SAFE_PROXY_FACTORY);

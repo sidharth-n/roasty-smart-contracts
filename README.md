@@ -40,7 +40,7 @@ This project contains two main smart contracts that power Agent Roasty's subscri
 | Contract               | Address                                      |
 | ---------------------- | -------------------------------------------- |
 | 📝 Subscription        | `0x9Fe9155f1fecBEca4a789967C3a45ff2Cb5a2617` |
-| 🏭 SafeFactory         | `0xB1386a71C2dC83dA35b5764aF29E6326F1079da2` |
+| 🏭 SafeFactory         | `0x5e65604A4ba6E3e62a647d6b0609c48c94d34D07` |
 | 🤖 Agent Roasty's Safe | `0xe05DCAf9206D125D7887919784756af8e69FaD89` |
 
 ## 🚀 Getting Started
